@@ -20,8 +20,8 @@ const allRoutes = require("./routes/index.routes");
 app.use("/api", allRoutes);
 
 // Routes
-const productRoutes = require("./routes/product.routes")
-app.use("/api", productRoutes);
+const phonesRoutes = require("./routes/phones.routes")
+app.use("/api", phonesRoutes);
 
 //http://localhost:5005/api
 // ❗ To handle errors. Routes that don't exist or errors that you handle in specific routes
